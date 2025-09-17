@@ -88,6 +88,10 @@
 
 .footer img{
     width: 4rem;
-    
+    transition: all 1s;
 }
+.footer img:hover{
+    opacity: 0.5;
+}
+
 
