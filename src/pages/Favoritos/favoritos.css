@@ -1,0 +1,61 @@
+.favoritos {
+    margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    flex-direction: column;
+}
+.favoritos h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.favoritos span {
+    font-size: 18px;
+    margin-right: 3rem;
+}
+
+.favoritos ul {
+    width: 720px;
+}   
+
+.favoritos ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+.favoritos div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.favoritos div a {
+    color: #116F3B;
+    text-decoration: none;
+
+}
+.favoritos img {
+    width: 200px;
+    border-radius: 4px;
+    margin-right: 1rem;
+    margin-top: 15px;
+}
+.favoritos button {
+    margin-left: 12px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-color: #adadad;
+}
+
+.favoritos button:hover {
+    background-color: #116F3B;
+    color: #fff;
+}
