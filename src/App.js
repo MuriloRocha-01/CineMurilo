@@ -5,10 +5,12 @@ import 'react-toastify/dist/ReactToastify.css';
 import RoutesApp from './routes';
 
 function App() {
+  
   return (
     <div className="App">
       <ToastContainer autoClose={2000}  theme="dark"/>
       <RoutesApp/>
+      
     </div>
   );
 }

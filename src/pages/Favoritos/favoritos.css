@@ -1,3 +1,7 @@
+body{
+    background-color: #FFF;
+}
+
 .favoritos {
     margin-top: 24px;
   display: flex;
@@ -58,4 +62,21 @@
 .favoritos button:hover {
     background-color: #116F3B;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    .favoritos ul {
+        width: 90%;
+    }
+    .favoritos img {
+        width: 100px;
+    }
+    .favoritos span {
+        font-size: 14px;
+        margin-right: 1rem;
+    }
+    .favoritos button {
+        font-size: 12px;
+        padding: 8px;
+    }
 }
